@@ -7,9 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Editeddddd <code>src/App.js</code> and save to reload.
+          Editeddddd on feature branch <code>src/App.js</code> and save to reload.
         </p>
-        <p>Hello World</p>
+        <p>Hello World from feature branch</p>
         <a
           className="App-link"
           href="https://reactjs.org"
