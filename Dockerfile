@@ -7,11 +7,7 @@ WORKDIR '/app'
 # install app dependencies
 COPY package*.json ./
 RUN  npm install
-
-# add app
 COPY . .
-
-# start app
 RUN npm run build
 
 FROM nginx
