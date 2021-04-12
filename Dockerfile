@@ -5,11 +5,11 @@ FROM node:alpine as builder
 WORKDIR '/app'
 
 # install app dependencies
-COPY package.json .
+COPY package*.json ./
 RUN  npm install
 
 # add app
-COPY . .
+COPY ./ ./
 
 # start app
 RUN npm run build
